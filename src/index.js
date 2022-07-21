@@ -6,6 +6,9 @@ const userRouter = require('./routes/user')
 //port
 const PORT = process.env.PORT || 5000;
 
+// Middlewares
+app.use(express.json());
+
 //routes
 app.use(userRouter)
 

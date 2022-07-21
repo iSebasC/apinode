@@ -28,5 +28,15 @@ router.post('/users', (req, res) => {
     })    
 });
 
+router.put('/users/:id', (req, res) => {
+    const { id } = req.params
+    const { name, lastname, age } = req.body;
+    const query = `UPDATE user SET name='${name}', lastname='${lastname}', age=${age} WHERE id=${id};`;
+    connection.query(query, (err) => {
+        if (err) throw error
+        res.json({ message: 'user updated'});
+    })    
+});
+
 module.exports = router;
 
