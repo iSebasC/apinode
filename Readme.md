@@ -15,7 +15,7 @@ NODE_ENV=local
 HOST=localhost
 PORT=5000
 
-//DB local or clud
+//DB local or cloud
 DB_HOST=puertoDB
 DB_NAME=nombreDB
 DB_USER=usuarioDB
