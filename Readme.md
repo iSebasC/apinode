@@ -1,4 +1,4 @@
-# Api de ejemplo
+# Api Básico
 Este es una api de ejemplo realizado con nodejs, mysql, express.
 
 ## Instalación de dependencias 🔧
