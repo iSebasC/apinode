@@ -7,6 +7,11 @@ Este es una api de ejemplo realizado con nodejs, mysql, express.
 npm install o npm i
 ```
 
+## Base de datos ✒️
+
+El script de la base de datos se encuentra en 'public/script-user.sql'
+
+
 ## Preparar Variables de entorno local 🚀
 Crear un archivo **.env** en la raiz y colocar los siguientes datos
 
